@@ -165,8 +165,8 @@
       background_color: '#F5F5F5'
     };
 
-    // Google Apps Script URL
-    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwCo5P0yKLDQmt14h5mDIt6i1sct6eat4M5ouzIBoMiSl5yaj8SarCOy6voIQD60219/exec';
+    // Google Apps Script URL (อัปเดตใหม่)
+    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx4_ZD5lWHC6mqyT5i1B-uJvE_9zMpp4rSdAw0hO7Y4WqHcH-x2C2SNN2c15sNx0KJw/exec';
     
     // Local Storage Key
     const STORAGE_KEY = '5s_score_data_sm';
@@ -351,13 +351,13 @@
       headerHTML += '<th colspan="4" class="border border-teal-300 px-2 py-2 bg-orange-500">พฤศจิกายน<br>ตรวจครั้งที่ 4</th>';
       headerHTML += '</tr>';
       
-      // Second row - sub headers
+      // Second row - sub headers (อัปเดตให้ตรงกับ Sheet)
       headerHTML += '<tr class="sub-header">';
       for (let i = 0; i < 4; i++) {
-        headerHTML += '<th class="border border-gray-300 px-2 py-1">SM</th>';
+        headerHTML += '<th class="border border-gray-300 px-2 py-1">PD</th>';
         headerHTML += '<th class="border border-gray-300 px-2 py-1">EN</th>';
         headerHTML += '<th class="border border-gray-300 px-2 py-1">BS</th>';
-        headerHTML += '<th class="border border-gray-300 px-2 py-1">PD</th>';
+        headerHTML += '<th class="border border-gray-300 px-2 py-1">MM</th>';
       }
       headerHTML += '</tr>';
       headerHTML += '</thead>';
